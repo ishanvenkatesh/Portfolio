@@ -14,29 +14,40 @@
 
 .hero {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100%;
     min-height: 100vh;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 0 2rem;
+
+
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
-    width: 50%;
 
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
+    flex: 1;
+
 }
 
 .hero-image {
     display: flex;
     justify-content: flex-end;
-    width: 50%;
-    
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
 
+    flex: 1;
+
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
 }
