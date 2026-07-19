@@ -1,0 +1,42 @@
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+}
